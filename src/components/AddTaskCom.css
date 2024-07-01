@@ -1,0 +1,105 @@
+
+.task-x{
+    border-radius: 8px;
+    border: 1px solid;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 10px;
+}
+.inner-taskspace{
+    display: grid;
+    grid-template-columns: 46px 1fr;
+}
+.custom-checkbox {
+    display: block;
+}
+.task-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 12px;
+}
+.task-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.name-tik{
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-name{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    margin: 0%;
+}
+.span-green{
+    background-color: #05eb4a;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+.span-yellow{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #EBB705;
+}
+.span-green{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #0deb05;
+}
+.edit-delete{
+    width: 68px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.task-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0%;
+    color: #475467;
+}
+.col-date{
+    max-width: 137px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+}
+.by-date{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin: 0% !important;
+    color:#667085;
+}
+.past-due{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+    background-color: #C035030F;
+}
+.by-date-red{
+    color: #C03503;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    margin: 0% ;
+}
